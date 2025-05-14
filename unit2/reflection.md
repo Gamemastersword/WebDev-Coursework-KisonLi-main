@@ -1,0 +1,2 @@
+This lesson taught me how to make design. It efficiently let me learn about the base of design, including the noun of design, means the definition of design and what is design, and verb of design which means how to design.
+And the steps in the lesson is also very detailed, such as the Prototype and the Empathize, and after all the test. So we can have a better way to design after this course, which can let us design our website better as well. So this is really important and really useful. And it lays a foundation for our subsequent study.
