@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display Practice</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        .bright {
+            background-color: lightyellow;
+            color: black;
+            padding: 10px;
+            border: 2px solid orange;
+            margin: 10px;
+        }
+
+        .dark {
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+            border: 2px solid white;
+            margin: 10px;
+        }
+
+        .inline-demo span {
+            display: inline;
+        }
+
+        .block-demo div {
+            display: block;
+        }
+
+        .inline-block-demo div {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+        }
+
+        .flex-demo {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex-demo div {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+        }
+
+        .grid-demo {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .grid-demo div {
+            height: 80px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 class="bright">Display: none</h2>
+    <p class="hidden">This paragraph is hidden and won’t show up.</p>
+
+    <h2 class="dark">Display: inline</h2>
+    <div class="inline-demo bright">
+        <span>Inline 1</span>
+        <span>Inline 2</span>
+        <span>Inline 3</span>
+    </div>
+
+    <h2 class="bright">Display: block</h2>
+    <div class="block-demo dark">
+        <div>Block 1</div>
+        <div>Block 2</div>
+        <div>Block 3</div>
+    </div>
+
+    <h2 class="dark">Display: inline-block</h2>
+    <div class="inline-block-demo bright">
+        <div style="background-color: red;"></div>
+        <div style="background-color: green;"></div>
+        <div style="background-color: blue;"></div>
+        <div style="background-color: purple;"></div>
+    </div>
+
+    <h2 class="bright">Display: flex</h2>
+    <div class="flex-demo dark">
+        <div style="background-color: pink;"></div>
+        <div style="background-color: lightgreen;"></div>
+        <div style="background-color: lightblue;"></div>
+    </div>
+
+    <h2 class="dark">Display: grid</h2>
+    <div class="grid-demo bright">
+        <div style="background-color: coral;"></div>
+        <div style="background-color: khaki;"></div>
+        <div style="background-color: lavender;"></div>
+        <div style="background-color: gold;"></div>
+        <div style="background-color: teal;"></div>
+        <div style="background-color: tomato;"></div>
+    </div>
+
+</body>
+</html>

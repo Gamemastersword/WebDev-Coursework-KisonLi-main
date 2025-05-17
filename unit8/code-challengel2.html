@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Community Layout Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        .bright {
+            background-color: lightyellow;
+            color: darkred;
+            padding: 20px;
+            border: 3px solid orange;
+            margin: 15px;
+            width: 200px;
+            height: 100px;
+        }
+
+        .dark {
+            background-color: darkblue;
+            color: white;
+            padding: 20px;
+            border: 3px solid white;
+            margin: 15px;
+            width: 200px;
+            height: 100px;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+            left: 30px;
+            top: 20px;
+        }
+
+        .absolute-container {
+            position: relative; /* important: ancestor for absolute */
+        }
+
+        .absolute {
+            position: absolute;
+            top: 20px;
+            left: 150px;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 class="sticky bright">Sticky: I stay at the top when scrolling!</h2>
+
+    <div class="bright static">Static Box</div>
+
+    <div class="dark relative">Relative Box</div>
+
+    <div class="absolute-container">
+        <div class="bright absolute">Absolute Box</div>
+    </div>
+
+    <div class="dark fixed">Fixed Box</div>
+
+    <p style="height: 800px;">Scroll down to see sticky and fixed positioning in action.</p>
+
+</body>
+</html>
