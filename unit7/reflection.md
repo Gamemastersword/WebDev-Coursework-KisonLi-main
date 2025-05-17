@@ -1,1 +1,3 @@
 <h1>Unit 7 reflection</h1>
+The UN Sustainable Development Goals reflect a global commitment to building a better future for all. They address urgent challenges like poverty, inequality, climate change, and access to education and healthcare. I believe the SDGs are essential because they promote peace, sustainability, and equal opportunity. Their holistic approach inspires collective action and responsibility.
+In the lesson2, I learned how to create a simple, clear webpage using basic HTML and CSS. I focused on organizing content clearly and using colors for readability and appeal. This practice helps communicate important community needs effectively.
